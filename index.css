@@ -143,15 +143,14 @@ main {
     height: 630px;
     overflow: hidden;
 
-    position: relative;
 }
 
 .values-descr-wrapper {
-    position: absolute;
+    position: relative;
     width: 300px;
     height: 300px;
     margin: 0 42px;
-    bottom: 10px;
+    bottom: 160px;
     padding-top: 90px;
     border-radius: 50%;
 
@@ -163,7 +162,7 @@ main {
 }
 
 .values-text-wrapper {
-    margin-top: 180px;
+    margin-top: -120px;
 }
 
 .values-text {
@@ -171,4 +170,10 @@ main {
     font-size: 12px;
     text-align: center;
     color: #696969;
+}
+
+@media (max-width: 1200px) {
+    main {
+        flex-direction: column;
+    }
 }
