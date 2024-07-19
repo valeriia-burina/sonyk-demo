@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+ul,
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body    {
+    font-family: "Roboto", sans-serif;
+    background-color: #fefefe;
+    color: #212121;
+
+    display: flex;
+    column-gap: 40px;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+main {
+    display: flex;
+    gap: 40px;
+}
+
+.author-header {
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: #eec4c6;
+
+    margin-top: 100px;
+    margin-bottom: 52px;
+}
+
+.features-header {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    margin-bottom: 10px;
+}
+
+.features-descr {
+    font-weight: 300;
+    font-size: 14px;
+    color: #696969;
+
+    margin-bottom: 60px;
+}
+
+.features-descr:last-child {
+    margin-bottom: 125px;
+}
+
+.qr-code-img {
+    margin-bottom: 25px;
+}
+
+.qr-code-text {
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.qr-code-section {
+    margin-bottom: 60px;
+}
+
+/* блок ссылки */
+
+.pink-bgr {
+    background: #f9e5e0;
+    border-radius: 15px;
+}
+
+.socials-img {
+    width: 380px;
+    height: 480px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+.socials-section {
+    height: 100%;
+}
+
+.socials-list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 28px;
+}
+
+.socials-list::after,
+.socials-list::before {
+    content: "";
+    width: 60px;
+    height: 0.5px;
+    background-size: contain;
+    display: block;
+    margin: auto;
+    background: #212121;
+} 
+
+.socials-list::after {
+    margin-bottom: 25px;
+}
+
+.social-text {
+    font-weight: 300;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.social-text-email {
+    font-weight: 400;
+    font-size: 14px;
+    
+}
+
+/* right block */
+
+.values-img {
+    width: 380px;
+    height: 630px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.values-descr-wrapper {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin: 0 42px;
+    bottom: 10px;
+    padding-top: 90px;
+    border-radius: 50%;
+
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+    color: #f9f9f9;
+    background: #f3cac4;
+}
+
+.values-text-wrapper {
+    margin-top: 180px;
+}
+
+.values-text {
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    color: #696969;
+}
